@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50; /* Darker blue for the heading */
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 2px solid #3498db; /* Blue border */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #3498db; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+#answer {
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #3498db; /* Blue border for the answer */
+    border-radius: 5px;
+    background-color: #ecf0f1; /* Light gray background for the answer */
+}
